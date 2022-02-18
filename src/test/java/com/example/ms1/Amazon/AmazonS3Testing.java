@@ -46,9 +46,9 @@ class AmazonS3Testing {
 
     @BeforeAll
     public void init() {
-        accessKey = "AKIA4I4NUVYKGUHIH7RH";
-        secretKey = "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";
-        bucketName = "ms1-testing-bucket";
+//        accessKey = "AKIA4I4NUVYKGUHIH7RH";
+//        secretKey = "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";
+//        bucketName = "ms1-testing-bucket";
         fileStoreService = new FileStoreService();
 
         this.s3Mock = S3Mock.create(8001, "/tmp/s3");
